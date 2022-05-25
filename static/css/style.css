@@ -1,0 +1,254 @@
+/*
+COMMON 
+*/
+
+html,
+body {
+    width: 100%;
+}
+
+.header img {
+    width: 50px;
+    float: left;
+    margin-left: 5%;
+    padding-right: 15px;
+}
+
+.header h1 {
+    padding-top: 11px;
+    padding-bottom: 3%;
+    border-bottom: 1px solid #ccc;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif; 
+    font: Helvetica;
+    font-size: 22px;
+}
+
+.home-col h3 {
+    margin-top: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif; 
+    font: Helvetica;
+    font-size: 21px;
+}
+
+.home-col img{
+    width: 50px;
+    float: left;
+    margin-left: 5%;
+    padding-right: 3px;
+    height: 50px;
+}
+
+.home-col{
+    padding-top: 11px;
+    
+    border-bottom: 1px solid #ccc;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif; 
+    font: Helvetica;
+    font-size: 18px;
+}
+
+.content {
+    max-width: 550px;
+    height: 100%;
+    margin: 0 auto;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+/*
+POSTS
+*/
+
+.post_form {
+    padding: 20px 40px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.post_form img {
+    width: 6%;
+    float: left;
+    /* border-radius: 50%; */
+}
+
+.post_form input{
+    width: 70%;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px none #ccc;
+    border-radius: 7px;
+    background-color: #dcfffc;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif; 
+    font: helvetica;
+    font-size: medium;
+}
+
+.post_form .cancel {
+    width: 17%;
+    margin-top: 10%;
+    padding: 10px 3px;
+    border: 1px none #ccc;
+    border-radius: 7px;
+    background-color: #1DA1F2;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif; 
+    font: helvetica;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.post_form .update {
+    width: 17%;
+    margin-top: 10%;
+    padding: 10px 3px;
+    border: 1px none #ccc;
+    border-radius: 7px;
+    background-color: #1DA1F2;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif; 
+    font: helvetica;
+    font-size: medium;
+    font-weight: bold;
+    float: right;
+}
+
+.post_two .file{
+    padding: 1%;
+    margin-left: 50px;
+    width: 60%;
+    border: 1px none #ccc;
+    background: none;
+}
+
+.post_form textarea {
+    left: 30px;
+    margin-left: 10%;
+    padding: 12px;
+    margin-bottom: 7%;
+    border: 1px none #ccc;
+    border-radius: 7px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif; 
+    font: Helvetica;
+    font-size: medium;
+}
+
+.post_form .file{
+    padding: 1%;
+    margin-left: 50px;
+    width: 60%;
+    border: 1px none #ccc;
+    background: none;
+}
+
+.post_form button {
+    width: 17%;
+    margin-top: 10%;
+    padding: 10px 3px;
+    border: 1px none #ccc;
+    border-radius: 7px;
+    background-color: #1DA1F2;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif; 
+    font: helvetica;
+    font-size: medium;
+    font-weight: bold;
+}
+
+
+
+.posts ul {
+    padding: 0;
+}
+
+.posts .likes{
+    width: 5%;
+}
+.posts li {
+    position: relative;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding: 20px 40px;
+    list-style: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif; 
+    font: helvetica
+}
+
+.posts li .logo {
+    flex-basis: 15%;
+}
+
+.posts li .logo img {
+    border-radius: 1%;
+    padding: 5%;
+    width: 40%;
+
+}
+
+
+.posts li .menu_icon {
+    width: 20px;
+    position: absolute;
+    right: 20px;
+    top: 18px;
+}
+
+.posts li .menu {
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 15px;
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 3px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif; 
+    font: helvetica
+}
+
+.posts li .menu a {
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif; 
+    font: helvetica
+}
+
+
+.posts li .name_body {
+    flex-basis: 85%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif; 
+    font: helvetica
+}
+
+.posts li .name_body .name {
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif; 
+    font: Helvetica;
+}
+
+.posts li .name_body .datetime {
+    color: grey;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif; 
+    font: helvetica;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+
+/* 
+edit.html
+////////////// */
+.home-col{
+    display: flex;
+    gap: 3%;
+}
+
+
+
+
+
+@media screen and (max-width: 500px) {
+    .posts li .name_body .name {
+        font-size: 20px;
+    }
+}
